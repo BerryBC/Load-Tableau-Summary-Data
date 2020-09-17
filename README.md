@@ -62,7 +62,7 @@ $(function() {
 
 Follow up operations can only be carried out after configuration. The 'arrcoltitle' can not be configured first. If not, the header of each worksheet can be obtained automatically through the function
 
--Do not configure column header information for the time being
+- Do not configure column header information for the time being
 ```js
 var jsonFormated = [
     { wsName: "Cat_Sales", valueName: "Measure Values", rowTitle: ["City","State/Province"] , colTitle: ["Sub-Category","Category"] },
