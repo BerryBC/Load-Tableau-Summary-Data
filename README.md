@@ -1,6 +1,7 @@
 # Load Tableau Summary Data
 
 ```js
+var objData = {};
 objData.tLoadData = new tLoadSD();
 var jsonFormated = [
     { wsName: "SK SALES-TTL", valueName: "Measure Values", rowTitle: ["City"] , colTitle: ["Measure Names"] }
